@@ -1,3 +1,5 @@
+import requests
+
 def handle():
     print("Hello bello")
 
