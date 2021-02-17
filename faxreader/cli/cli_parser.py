@@ -2,7 +2,7 @@ import argparse
 
 
 def parse():
-    parser = argparse.ArgumentParser(description='Read paper documents'
+    parser = argparse.ArgumentParser(description='Read account numbers from paper documents'
                                                  ' and create a file with same content',
                                      epilog='Enjoy the digital world! :)')
 
