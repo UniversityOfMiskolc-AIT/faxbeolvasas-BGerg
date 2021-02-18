@@ -2,11 +2,10 @@ import argparse
 
 
 def parse():
-    parser = argparse.ArgumentParser(description='Read account numbers from paper documents'
+    parser = argparse.ArgumentParser(description='Read account numbers from eight digit format'
                                                  ' and create a file with same content',
                                      epilog='Enjoy the digital world! :)')
 
-    parser.add_argument('account_number')
     parser.add_argument('-s',
                         '--saveto',
                         action='store',

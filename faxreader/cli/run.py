@@ -1,9 +1,14 @@
 from faxreader.cli.cli_parser import parse
-from faxreader.core.handle_fax_data import split_and_type_conversion_of_content
-
+from faxreader.core.handle_data import *
 
 def handle(args):
-    account_number = split_and_type_conversion_of_content(args.account_number)
+
+
+
+    a = read_lines_from_file("nu.txt")
+    print(interpret_numbers_list_and_covert_to_str(a))
+
+
 
 
 if __name__ == "__main__":
